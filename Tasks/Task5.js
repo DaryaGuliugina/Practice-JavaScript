@@ -1,7 +1,7 @@
 var arr = [];
-var str ="x";
+var str ='x';
 for (var i = 0; i < 5; i++) {
     arr.push(str);
-    str += "x";
+    str += 'x';
 }
 console.log(arr);
