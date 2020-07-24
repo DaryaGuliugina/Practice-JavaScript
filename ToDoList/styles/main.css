@@ -2,11 +2,9 @@ body {
   min-height: 100%;
   font-family: Bad Script;
   background: #5614B0;
-  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom right, #C165DD, #5C27FE);
-  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom right,#C165DD, #5C27FE);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+ }
 
 h1 {
   text-transform: uppercase;
@@ -163,7 +161,6 @@ button:hover {
   text-align: center;
   margin-top: 25px; }
 
-/*  if screen size less than 450px, resize tips lists and close btn so they don't overlap */
 @media screen and (max-height: 450px) {
   .overlay a {
     font-size: 20px; }
